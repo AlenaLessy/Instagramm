@@ -7,7 +7,7 @@
 
 import UIKit
 
-/// view
+/// описание
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
