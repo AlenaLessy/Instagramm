@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570704BB28FED91100D30BF0 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570704BA28FED91100D30BF0 /* Media.xcassets */; };
 		5740F9EE28FEC5AC00C21846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740F9ED28FEC5AC00C21846 /* AppDelegate.swift */; };
 		5740F9F028FEC5AC00C21846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740F9EF28FEC5AC00C21846 /* SceneDelegate.swift */; };
-		5740F9F228FEC5AC00C21846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740F9F128FEC5AC00C21846 /* ViewController.swift */; };
+		5740F9F228FEC5AC00C21846 /* InstagamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740F9F128FEC5AC00C21846 /* InstagamViewController.swift */; };
 		5740F9F528FEC5AC00C21846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5740F9F328FEC5AC00C21846 /* Main.storyboard */; };
 		5740F9F728FEC5AC00C21846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5740F9F628FEC5AC00C21846 /* Assets.xcassets */; };
 		5740F9FA28FEC5AC00C21846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5740F9F828FEC5AC00C21846 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570704BA28FED91100D30BF0 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		5740F9EA28FEC5AC00C21846 /* Insragram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insragram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5740F9ED28FEC5AC00C21846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5740F9EF28FEC5AC00C21846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5740F9F128FEC5AC00C21846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5740F9F128FEC5AC00C21846 /* InstagamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagamViewController.swift; sourceTree = "<group>"; };
 		5740F9F428FEC5AC00C21846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5740F9F628FEC5AC00C21846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5740F9F928FEC5AC00C21846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,9 +60,10 @@
 			children = (
 				5740F9ED28FEC5AC00C21846 /* AppDelegate.swift */,
 				5740F9EF28FEC5AC00C21846 /* SceneDelegate.swift */,
-				5740F9F128FEC5AC00C21846 /* ViewController.swift */,
+				5740F9F128FEC5AC00C21846 /* InstagamViewController.swift */,
 				5740F9F328FEC5AC00C21846 /* Main.storyboard */,
 				5740F9F628FEC5AC00C21846 /* Assets.xcassets */,
+				570704BA28FED91100D30BF0 /* Media.xcassets */,
 				5740F9F828FEC5AC00C21846 /* LaunchScreen.storyboard */,
 				5740F9FB28FEC5AC00C21846 /* Info.plist */,
 			);
@@ -128,6 +131,7 @@
 			files = (
 				5740F9FA28FEC5AC00C21846 /* LaunchScreen.storyboard in Resources */,
 				5740F9F728FEC5AC00C21846 /* Assets.xcassets in Resources */,
+				570704BB28FED91100D30BF0 /* Media.xcassets in Resources */,
 				5740F9F528FEC5AC00C21846 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5740F9F228FEC5AC00C21846 /* ViewController.swift in Sources */,
+				5740F9F228FEC5AC00C21846 /* InstagamViewController.swift in Sources */,
 				5740F9EE28FEC5AC00C21846 /* AppDelegate.swift in Sources */,
 				5740F9F028FEC5AC00C21846 /* SceneDelegate.swift in Sources */,
 			);
