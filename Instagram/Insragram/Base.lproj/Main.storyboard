@@ -41,15 +41,27 @@
             </objects>
             <point key="canvasLocation" x="-368" y="1113"/>
         </scene>
-        <!--View Controller-->
+        <!--Like Instagram View Controller-->
         <scene sceneID="RFP-h1-9RC">
             <objects>
-                <viewController id="wzC-00-JKF" sceneMemberID="viewController">
+                <viewController id="wzC-00-JKF" customClass="LikeInstagramViewController" customModule="Insragram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9dA-Vh-K0W">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cy1-hE-v4r">
+                                <rect key="frame" x="0.0" y="91" width="390" height="670"/>
+                                <sections/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="POk-9z-5tT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cy1-hE-v4r" firstAttribute="leading" secondItem="POk-9z-5tT" secondAttribute="leading" id="3fH-nW-9do"/>
+                            <constraint firstItem="POk-9z-5tT" firstAttribute="bottom" secondItem="cy1-hE-v4r" secondAttribute="bottom" id="BY0-sB-ohB"/>
+                            <constraint firstItem="POk-9z-5tT" firstAttribute="trailing" secondItem="cy1-hE-v4r" secondAttribute="trailing" id="Bac-cu-lmN"/>
+                            <constraint firstItem="cy1-hE-v4r" firstAttribute="top" secondItem="POk-9z-5tT" secondAttribute="top" id="O6x-zR-hsV"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Like" id="PgR-S9-8rk">
                         <color key="badgeColor" name="blackAndWhite"/>
@@ -63,10 +75,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="likeTableView" destination="cy1-hE-v4r" id="AJo-ll-NN8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JuH-or-cO6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="506" y="1835"/>
+            <point key="canvasLocation" x="504.61538461538458" y="1834.8341232227488"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ris-JF-brn">
@@ -120,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="-2249" y="830"/>
         </scene>
-        <!--Instagam View Controller-->
+        <!--Home Instagam View Controller-->
         <scene sceneID="LHI-Wf-8A0">
             <objects>
-                <viewController id="lzb-py-h1X" customClass="InstagamViewController" customModule="Insragram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lzb-py-h1X" customClass="HomeInstagamViewController" customModule="Insragram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qph-Ng-keo">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="1600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
