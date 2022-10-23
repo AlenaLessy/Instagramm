@@ -8,7 +8,7 @@
 import Foundation
 
 /// Модель поста
-struct UserPostModel {
+struct UserPost {
     var userPhotoImageName: String
     var userNickName: String
     var userImageName: String

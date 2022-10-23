@@ -13,12 +13,12 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="newSubscripter" rowHeight="447" id="KGk-i7-Jjw" customClass="NewSubscriberTableViewCell" customModule="Insragram" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="390" height="447"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="390" height="447"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gomer" translatesAutoresizingMaskIntoConstraints="NO" id="8MF-UJ-H2A">
-                        <rect key="frame" x="15" y="30" width="50" height="50"/>
+                        <rect key="frame" x="15" y="20" width="50" height="50"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="50" id="omH-QZ-w5V"/>
                             <constraint firstAttribute="width" constant="50" id="qhU-k2-DzK"/>
@@ -30,7 +30,7 @@
                         </userDefinedRuntimeAttributes>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IvanovNick" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDH-2d-cKa">
-                        <rect key="frame" x="80" y="30" width="74" height="17"/>
+                        <rect key="frame" x="80" y="20" width="74" height="17"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="17" id="W1T-2z-Jqd"/>
                         </constraints>
@@ -39,13 +39,13 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5ч." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKW-5S-0HZ">
-                        <rect key="frame" x="80" y="80.666666666666657" width="20.333333333333329" height="351.33333333333337"/>
+                        <rect key="frame" x="80" y="70.666666666666657" width="20.333333333333329" height="371.33333333333337"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" name="grayImage"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="подписался(-ась) на ваши обновления" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2Y-Dz-z2T">
-                        <rect key="frame" x="80" y="47" width="170" height="33.666666666666657"/>
+                        <rect key="frame" x="80" y="37" width="170" height="33.666666666666657"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="33.670000000000002" id="MiJ-OH-noU"/>
                             <constraint firstAttribute="width" constant="170" id="zBM-S0-58x"/>
@@ -55,7 +55,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7f-h0-i4C">
-                        <rect key="frame" x="236" y="30" width="110" height="28.333333333333329"/>
+                        <rect key="frame" x="265" y="39.666666666666664" width="110" height="28.333333333333336"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="110" id="6Xk-Op-0v7"/>
                         </constraints>
@@ -75,21 +75,25 @@
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="K7f-h0-i4C" firstAttribute="top" secondItem="8MF-UJ-H2A" secondAttribute="top" id="0GF-2g-XDN"/>
                     <constraint firstItem="8MF-UJ-H2A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="81c-qd-vG0"/>
-                    <constraint firstItem="8MF-UJ-H2A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="9WG-YL-pTs"/>
-                    <constraint firstAttribute="bottom" secondItem="BKW-5S-0HZ" secondAttribute="bottom" constant="15" id="Sln-dJ-LXT"/>
+                    <constraint firstItem="8MF-UJ-H2A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="9WG-YL-pTs"/>
+                    <constraint firstItem="K7f-h0-i4C" firstAttribute="centerY" secondItem="y2Y-Dz-z2T" secondAttribute="centerY" id="Iqr-Nt-JQt"/>
+                    <constraint firstAttribute="bottom" secondItem="BKW-5S-0HZ" secondAttribute="bottom" constant="5" id="Sln-dJ-LXT"/>
                     <constraint firstItem="aDH-2d-cKa" firstAttribute="top" secondItem="8MF-UJ-H2A" secondAttribute="top" id="UJP-IK-96M"/>
                     <constraint firstItem="aDH-2d-cKa" firstAttribute="leading" secondItem="8MF-UJ-H2A" secondAttribute="trailing" constant="15" id="Uis-gt-syr"/>
                     <constraint firstItem="y2Y-Dz-z2T" firstAttribute="leading" secondItem="aDH-2d-cKa" secondAttribute="leading" id="ZfW-5d-yhM"/>
                     <constraint firstItem="BKW-5S-0HZ" firstAttribute="top" secondItem="y2Y-Dz-z2T" secondAttribute="bottom" id="hQf-lP-GL3"/>
-                    <constraint firstItem="K7f-h0-i4C" firstAttribute="leading" secondItem="y2Y-Dz-z2T" secondAttribute="trailing" constant="-14" id="kGH-Qp-y94"/>
-                    <constraint firstAttribute="trailing" secondItem="K7f-h0-i4C" secondAttribute="trailing" constant="20" id="uxv-0a-ctg"/>
+                    <constraint firstAttribute="trailing" secondItem="K7f-h0-i4C" secondAttribute="trailing" constant="15" id="uxv-0a-ctg"/>
                     <constraint firstItem="y2Y-Dz-z2T" firstAttribute="top" secondItem="aDH-2d-cKa" secondAttribute="bottom" id="wsn-gP-Fj7"/>
                     <constraint firstItem="BKW-5S-0HZ" firstAttribute="leading" secondItem="y2Y-Dz-z2T" secondAttribute="leading" id="zd4-ma-Yh3"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="timeLabel" destination="BKW-5S-0HZ" id="maJ-3Z-DuD"/>
+                <outlet property="userNickLabel" destination="aDH-2d-cKa" id="MbK-4b-0dR"/>
+                <outlet property="userPhotoImageView" destination="8MF-UJ-H2A" id="lVF-yb-l5C"/>
+            </connections>
             <point key="canvasLocation" x="118.46153846153845" y="163.86255924170615"/>
         </tableViewCell>
     </objects>

@@ -9,13 +9,18 @@ import UIKit
 
 // Ячейка подписки
 class SubscribTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
     
+    // MARK: - Private Outlets
+    @IBOutlet weak private var userPhotoImageView: UIImageView!
+    @IBOutlet weak private var userNameLabel: UILabel!
+    @IBOutlet weak private var userNickLabel: UILabel!
+    @IBOutlet weak private var timeLabel: UILabel!
+    
+    // MARK: - Public Methods
+    func update(_ subscrib: Subscrib) {
+        userPhotoImageView.image = UIImage(named: subscrib.userPhotoImageName)
+        userNickLabel.text = subscrib.userNick
+        userNameLabel.text = subscrib.userName
+        timeLabel.text = subscrib.time
+    }
 }

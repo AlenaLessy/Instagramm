@@ -9,16 +9,21 @@ import UIKit
 
 // Ячейка лайка коммента
 final class LikeCommentTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+// MARK: - Private Outlets
+    @IBOutlet weak private var userPhotoImageView: UIImageView!
+    @IBOutlet weak private var userNickLabel: UILabel!
+    @IBOutlet weak private var mentionedUserLabel: UILabel!
+    @IBOutlet weak private var commentLabel: UILabel!
+    @IBOutlet weak private var timeLabel: UILabel!
+    @IBOutlet weak private var storyImageView: UIImageView!
     
+    // MARK: - Public Methods
+    func update(_ likeComment: LikeComment) {
+        userPhotoImageView.image = UIImage(named: likeComment.userPhotoImageName)
+        userNickLabel.text = likeComment.userNickName
+        mentionedUserLabel.text = likeComment.mentionedUser
+        commentLabel.text = likeComment.comment
+        timeLabel.text = likeComment.time
+        storyImageView.image = UIImage(named: likeComment.storyImageName)
+    }
 }

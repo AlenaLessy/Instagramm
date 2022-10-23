@@ -8,7 +8,7 @@
 import Foundation
 
 /// Модель лайк сторис
-struct LikeStoryModel {
+struct LikeStory: LikeInstagramProtocol {
     var userPhotoImageName: String
     var userNickName: String
     var storyImageName: String

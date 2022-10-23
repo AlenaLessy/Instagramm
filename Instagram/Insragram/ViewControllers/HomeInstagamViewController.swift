@@ -41,19 +41,18 @@ final class HomeInstagamViewController: UIViewController {
     @IBOutlet weak private var storiesTableView: UITableView!
     
     // MARK: - Private Properties
-    
     private let tableCellTypes: [TableCellTypes] = [.stories, .firstPost, .recommendations, .posts]
     
-    private var userPostModel: [UserPostModel] = [
-        UserPostModel(userPhotoImageName: Constants.milkmanPhotoImageName,
+    private var userPost: [UserPost] = [
+        UserPost(userPhotoImageName: Constants.milkmanPhotoImageName,
                       userNickName: Constants.milkmanNickName,
                       userImageName: Constants.milkmanImageName,
                       userPost: Constants.milkmanPost),
-        UserPostModel(userPhotoImageName: Constants.gubkaPhotoImageName,
+        UserPost(userPhotoImageName: Constants.gubkaPhotoImageName,
                       userNickName: Constants.gubkaNickName,
                       userImageName: Constants.gubkaImageName,
                       userPost: Constants.gubkaPost),
-        UserPostModel(userPhotoImageName: Constants.gomerPhotoImageName,
+        UserPost(userPhotoImageName: Constants.gomerPhotoImageName,
                       userNickName: Constants.gomerNickName,
                       userImageName: Constants.gomerImageName,
                       userPost: Constants.gomerPost)
@@ -120,7 +119,7 @@ extension HomeInstagamViewController: UITableViewDataSource {
         case .stories:
             return tableView.dequeueReusableCell(withIdentifier: Constants.storiesIdentifyer) ?? UITableViewCell()
         case .firstPost:
-            let model = userPostModel[indexPath.row]
+            let model = userPost[indexPath.row]
             guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.postIdentifyer)
                     as? PostTableViewCell else { return UITableViewCell() }
             cell.update(model)
@@ -129,7 +128,7 @@ extension HomeInstagamViewController: UITableViewDataSource {
             return tableView.dequeueReusableCell(withIdentifier: Constants.recommendationsIdentifyer)
             ?? UITableViewCell()
         case .posts:
-            let model = userPostModel[indexPath.row]
+            let model = userPost[indexPath.row]
             guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.postIdentifyer)
                     as? PostTableViewCell else { return UITableViewCell() }
             cell.update(model)

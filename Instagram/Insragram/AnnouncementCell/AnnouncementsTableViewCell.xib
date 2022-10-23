@@ -49,7 +49,7 @@
                     <constraint firstItem="aX1-vA-RBX" firstAttribute="leading" secondItem="fqb-MV-CZa" secondAttribute="trailing" constant="15" id="XGG-Aa-rOr"/>
                     <constraint firstAttribute="trailing" secondItem="Hag-Xk-9uQ" secondAttribute="trailing" constant="30" id="XSC-IP-8ZG"/>
                     <constraint firstItem="aX1-vA-RBX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="YSL-87-gUt"/>
-                    <constraint firstAttribute="bottom" secondItem="Hag-Xk-9uQ" secondAttribute="bottom" constant="20" id="bvT-JL-Og0"/>
+                    <constraint firstAttribute="bottom" secondItem="Hag-Xk-9uQ" secondAttribute="bottom" constant="5" id="bvT-JL-Og0"/>
                     <constraint firstItem="fqb-MV-CZa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="oO3-Zk-ufD"/>
                 </constraints>
             </tableViewCellContentView>

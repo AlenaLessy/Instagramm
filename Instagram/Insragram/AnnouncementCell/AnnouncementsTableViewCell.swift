@@ -8,14 +8,4 @@
 import UIKit
 
 // Ячейка подробностей
-final class AnnouncementsTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
-    
-}
+final class AnnouncementsTableViewCell: UITableViewCell {}
