@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="aboutMe" rowHeight="234" id="KGk-i7-Jjw" customClass="AboutMeTableViewCell" customModule="Insragram" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="234"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="234"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Евгений Медведев" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voR-5q-LEn">
+                        <rect key="frame" x="15" y="15" width="135" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="5HK-3m-1Yt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Я фотограф могу дать афтограф для заявки звоните по телефону 8(922) 006-60-25" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oB-VE-0nK">
+                        <rect key="frame" x="15" y="49" width="160" height="67"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="VvG-a6-TGU"/>
+                            <constraint firstAttribute="height" constant="67" id="qpJ-MT-Tb7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Предприниматель" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1e2-zX-rrP">
+                        <rect key="frame" x="15" y="32" width="125" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="izP-wB-Xad"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" name="grayImage"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подписаны:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfY-j3-O9i">
+                        <rect key="frame" x="15" y="119" width="81.333333333333329" height="60"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="modelka_89" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKA-OF-tB2">
+                        <rect key="frame" x="98.333333333333314" y="119" width="83.666666666666686" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lu2-Cy-mV4">
+                        <rect key="frame" x="180" y="194" width="160" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="Eux-os-mRe"/>
+                            <constraint firstAttribute="width" constant="160" id="PEx-oX-DW9"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Написать">
+                            <backgroundConfiguration key="background">
+                                <color key="strokeColor" name="grayImage"/>
+                            </backgroundConfiguration>
+                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <color key="baseForegroundColor" name="blackAndWhite"/>
+                        </buttonConfiguration>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QiE-g7-9SN">
+                        <rect key="frame" x="15" y="194" width="160" height="35"/>
+                        <color key="backgroundColor" name="systemBlue"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="8RM-3a-SLe"/>
+                            <constraint firstAttribute="width" constant="160" id="i70-SN-wTa"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Подписаться">
+                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <color key="baseForegroundColor" name="blackAndWhite"/>
+                        </buttonConfiguration>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWC-lz-bHv">
+                        <rect key="frame" x="345" y="194" width="50" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="CU5-xY-HtH"/>
+                            <constraint firstAttribute="height" constant="35" id="Jqy-PZ-thY"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="chevron.down" catalog="system" title="">
+                            <backgroundConfiguration key="background">
+                                <color key="strokeColor" name="grayImage"/>
+                            </backgroundConfiguration>
+                            <color key="baseForegroundColor" name="blackAndWhite"/>
+                        </buttonConfiguration>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lu2-Cy-mV4" firstAttribute="top" secondItem="QiE-g7-9SN" secondAttribute="top" id="4W4-25-HRV"/>
+                    <constraint firstItem="1e2-zX-rrP" firstAttribute="top" secondItem="voR-5q-LEn" secondAttribute="bottom" id="7Vk-RR-Hb9"/>
+                    <constraint firstItem="voR-5q-LEn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="AOx-ht-BlQ"/>
+                    <constraint firstItem="uWC-lz-bHv" firstAttribute="top" secondItem="Lu2-Cy-mV4" secondAttribute="top" id="Gjg-c6-sYv"/>
+                    <constraint firstItem="1e2-zX-rrP" firstAttribute="leading" secondItem="voR-5q-LEn" secondAttribute="leading" id="IUX-fw-t1r"/>
+                    <constraint firstAttribute="trailing" secondItem="uWC-lz-bHv" secondAttribute="trailing" constant="5" id="OrD-a0-oga"/>
+                    <constraint firstItem="Lu2-Cy-mV4" firstAttribute="leading" secondItem="QiE-g7-9SN" secondAttribute="trailing" constant="5" id="P0N-8L-haP"/>
+                    <constraint firstItem="QiE-g7-9SN" firstAttribute="leading" secondItem="sfY-j3-O9i" secondAttribute="leading" id="SnS-gr-531"/>
+                    <constraint firstItem="6oB-VE-0nK" firstAttribute="top" secondItem="1e2-zX-rrP" secondAttribute="bottom" id="W54-eJ-5Hl"/>
+                    <constraint firstItem="QiE-g7-9SN" firstAttribute="top" secondItem="sfY-j3-O9i" secondAttribute="bottom" constant="15" id="bo9-01-9JQ"/>
+                    <constraint firstAttribute="bottom" secondItem="QiE-g7-9SN" secondAttribute="bottom" constant="5" id="eIJ-ig-9nW"/>
+                    <constraint firstItem="6oB-VE-0nK" firstAttribute="leading" secondItem="1e2-zX-rrP" secondAttribute="leading" id="ho3-Ls-7IO"/>
+                    <constraint firstItem="voR-5q-LEn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="i2A-6q-VbF"/>
+                    <constraint firstItem="RKA-OF-tB2" firstAttribute="top" secondItem="sfY-j3-O9i" secondAttribute="top" id="jd2-LX-09f"/>
+                    <constraint firstItem="uWC-lz-bHv" firstAttribute="leading" secondItem="Lu2-Cy-mV4" secondAttribute="trailing" constant="5" id="kba-mS-W3K"/>
+                    <constraint firstItem="sfY-j3-O9i" firstAttribute="top" secondItem="6oB-VE-0nK" secondAttribute="bottom" constant="3" id="ojM-9I-agw"/>
+                    <constraint firstItem="RKA-OF-tB2" firstAttribute="leading" secondItem="sfY-j3-O9i" secondAttribute="trailing" constant="2" id="tYC-VP-VQB"/>
+                    <constraint firstItem="sfY-j3-O9i" firstAttribute="leading" secondItem="6oB-VE-0nK" secondAttribute="leading" id="zDg-dc-5AM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="18.46153846153846" y="88.151658767772503"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="70"/>
+        <namedColor name="blackAndWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="grayImage">
+            <color red="0.41499999165534973" green="0.41999998688697815" blue="0.41999998688697815" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="systemBlue">
+            <color red="0.24500000476837158" green="0.5" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
