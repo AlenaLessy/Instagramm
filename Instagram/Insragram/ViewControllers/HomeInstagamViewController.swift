@@ -8,13 +8,26 @@
 import UIKit
 
 /// Экран Home
-class InstagamViewController: UIViewController {
+final class HomeInstagamViewController: UIViewController {
     
     // MARK: Private Constants
     private enum Constants {
         static let storiesIdentifyer = "stories"
-        static let postIdentifyer = "post"
+        static let postIdentifyer = "newPost"
         static let recommendationsIdentifyer = "recommendations"
+        static let milkmanPhotoImageName = "Ellipse 12"
+        static let milkmanNickName = "Молочник"
+        static let milkmanImageName = "korova"
+        static let milkmanPost = "Моя дорогая корова"
+        static let gubkaPhotoImageName = "Gubka_Kidsomnibus"
+        static let gubkaNickName = "Спанч-боб"
+        static let gubkaImageName = "Gubka_Kidsomnibus"
+        static let gubkaPost = "Моя любимая фотография"
+        static let gomerPhotoImageName = "gomer"
+        static let gomerNickName = "Гомер Симпсон"
+        static let gomerImageName = "gomer"
+        static let gomerPost = "Это я!"
+        static let postNibName = "PostTableViewCell"
     }
     
     private enum TableCellTypes {
@@ -28,22 +41,21 @@ class InstagamViewController: UIViewController {
     @IBOutlet weak private var storiesTableView: UITableView!
     
     // MARK: - Private Properties
+    private let tableCellTypes: [TableCellTypes] = [.stories, .firstPost, .recommendations, .posts]
     
-  private let tableCellTypes: [TableCellTypes] = [.stories, .firstPost, .recommendations, .posts]
-    
-    private var userPostModel: [UserPostModel] = [
-        UserPostModel(userPhotoImageName: "Ellipse 12",
-                      userNickName: "Молочник",
-                      userImageName: "korova",
-                      userPost: "Моя дорогая корова"),
-    UserPostModel(userPhotoImageName: "Gubka_Kidsomnibus",
-                  userNickName: "Спанч-боб",
-                  userImageName: "Gubka_Kidsomnibus",
-                  userPost: "Моя любимая фотография"),
-        UserPostModel(userPhotoImageName: "gomer",
-                      userNickName: "Гомер Симпсон",
-                      userImageName: "gomer",
-                      userPost: "Это я!")
+    private var userPost: [UserPost] = [
+        UserPost(userPhotoImageName: Constants.milkmanPhotoImageName,
+                      userNickName: Constants.milkmanNickName,
+                      userImageName: Constants.milkmanImageName,
+                      userPost: Constants.milkmanPost),
+        UserPost(userPhotoImageName: Constants.gubkaPhotoImageName,
+                      userNickName: Constants.gubkaNickName,
+                      userImageName: Constants.gubkaImageName,
+                      userPost: Constants.gubkaPost),
+        UserPost(userPhotoImageName: Constants.gomerPhotoImageName,
+                      userNickName: Constants.gomerNickName,
+                      userImageName: Constants.gomerImageName,
+                      userPost: Constants.gomerPost)
     ]
     
     // MARK: - LifeCycle
@@ -60,8 +72,8 @@ class InstagamViewController: UIViewController {
             self.storiesTableView.reloadData()
         }
     }
-   
-    // Private Methods
+    
+    // MARK: - Private Methods
     private func refreshControl() {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refreshControlAction), for: .valueChanged)
@@ -71,13 +83,15 @@ class InstagamViewController: UIViewController {
     private func configureTableView() {
         storiesTableView.dataSource = self
         storiesTableView.estimatedRowHeight = UITableView.automaticDimension
-        storiesTableView.register(UINib(nibName: "PostTableViewCell", bundle: nil), forCellReuseIdentifier: "test")
+        storiesTableView.register(UINib(nibName: Constants.postNibName,
+                                        bundle: nil),
+                                  forCellReuseIdentifier: Constants.postIdentifyer)
     }
     
 }
 
 /// UITableViewDataSource
-extension InstagamViewController: UITableViewDataSource {
+extension HomeInstagamViewController: UITableViewDataSource {
     
     // возвращает количество секций
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -105,8 +119,8 @@ extension InstagamViewController: UITableViewDataSource {
         case .stories:
             return tableView.dequeueReusableCell(withIdentifier: Constants.storiesIdentifyer) ?? UITableViewCell()
         case .firstPost:
-            let model = userPostModel[indexPath.row]
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "test")
+            let model = userPost[indexPath.row]
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.postIdentifyer)
                     as? PostTableViewCell else { return UITableViewCell() }
             cell.update(model)
             return cell
@@ -114,14 +128,14 @@ extension InstagamViewController: UITableViewDataSource {
             return tableView.dequeueReusableCell(withIdentifier: Constants.recommendationsIdentifyer)
             ?? UITableViewCell()
         case .posts:
-            let model = userPostModel[indexPath.row]
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "test")
+            let model = userPost[indexPath.row]
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.postIdentifyer)
                     as? PostTableViewCell else { return UITableViewCell() }
             cell.update(model)
             return cell
         }
     }
-
+    
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         UITableView.automaticDimension
     }

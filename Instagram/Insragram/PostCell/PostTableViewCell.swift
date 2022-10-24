@@ -18,19 +18,8 @@ final class PostTableViewCell: UITableViewCell {
     @IBOutlet weak private var userNickLabel: UILabel!
     @IBOutlet weak private var userPostLabel: UILabel!
     
-    // MARK: - LifeCycle
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-    
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
-    }
-    
     // MARK: - Public Methods
-    
-    func update(_ userPostModel: UserPostModel) {
+    func update(_ userPostModel: UserPost) {
         userPhotoImageView.image = UIImage(named: userPostModel.userPhotoImageName)
         userPhotoPostImageView.image = UIImage(named: userPostModel.userPhotoImageName)
         userNickLabel.text = userPostModel.userNickName
