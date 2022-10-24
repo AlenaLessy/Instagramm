@@ -8,7 +8,7 @@
 import UIKit
 
 // Ячейка подписки (экран лайков)
-class SubscribTableViewCell: UITableViewCell {
+final class SubscribTableViewCell: UITableViewCell {
     
     // MARK: - Private Outlets
     @IBOutlet weak private var userPhotoImageView: UIImageView!

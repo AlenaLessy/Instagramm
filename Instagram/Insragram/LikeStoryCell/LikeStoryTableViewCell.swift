@@ -17,10 +17,10 @@ final class LikeStoryTableViewCell: UITableViewCell {
     @IBOutlet weak private var timeLabel: UILabel!
     
     // MARK: - Public Methods
-    func update(_ model: LikeStory) {
-        userPhotoImageView.image = UIImage(named: model.userPhotoImageName)
-        userNickNameLabel.text = model.userNickName
-        storyImageView.image = UIImage(named: model.storyImageName)
-        timeLabel.text = model.time
+    func update(_ likeStory: LikeStory) {
+        userPhotoImageView.image = UIImage(named: likeStory.userPhotoImageName)
+        userNickNameLabel.text = likeStory.userNickName
+        storyImageView.image = UIImage(named: likeStory.storyImageName)
+        timeLabel.text = likeStory.time
     }
 }

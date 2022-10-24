@@ -241,22 +241,22 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="stories" id="3iF-z5-6zS" customClass="StoriesTableViewCell" customModule="Insragram">
-                                        <rect key="frame" x="0.0" y="50" width="390" height="132"/>
+                                        <rect key="frame" x="0.0" y="50" width="390" height="131.66667175292969"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3iF-z5-6zS" id="Tvq-Fn-m5x">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="132"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="131.66667175292969"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqS-BX-1aD">
-                                                    <rect key="frame" x="0.0" y="0.0" width="390" height="132"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="390" height="131.66666666666666"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhY-bu-WjD" userLabel="ContentScrolView">
-                                                            <rect key="frame" x="0.0" y="0.0" width="600" height="132"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="600" height="131.66666666666666"/>
                                                             <subviews>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DyS-Xt-RXv">
                                                                     <rect key="frame" x="12" y="15" width="85" height="85"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 12" translatesAutoresizingMaskIntoConstraints="NO" id="bn0-7C-sn2">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mi" translatesAutoresizingMaskIntoConstraints="NO" id="bn0-7C-sn2">
                                                                             <rect key="frame" x="5" y="5" width="65" height="65"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             <userDefinedRuntimeAttributes>
@@ -305,7 +305,7 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gomer" translatesAutoresizingMaskIntoConstraints="NO" id="tcJ-Wo-drN">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mi1" translatesAutoresizingMaskIntoConstraints="NO" id="tcJ-Wo-drN">
                                                                             <rect key="frame" x="2.6666666666666714" y="2.6666666666666714" width="70" height="70"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="70" id="3Pi-dp-C2I"/>
@@ -335,8 +335,8 @@
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дворник" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFB-lU-vBU">
-                                                                    <rect key="frame" x="119.66666666666669" y="107" width="54" height="15"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Таптыга" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFB-lU-vBU">
+                                                                    <rect key="frame" x="121.33333333333333" y="107" width="50.333333333333329" height="14.666666666666671"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                                     <color key="textColor" name="blackAndWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -356,7 +356,7 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gubka_Kidsomnibus" translatesAutoresizingMaskIntoConstraints="NO" id="gI2-Yp-GGV">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mi2" translatesAutoresizingMaskIntoConstraints="NO" id="gI2-Yp-GGV">
                                                                             <rect key="frame" x="7.6666666666666572" y="2.6666666666666714" width="70" height="70"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="70" id="AS8-Yi-KSG"/>
@@ -386,8 +386,8 @@
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Фермер" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSs-va-NBc">
-                                                                    <rect key="frame" x="208.66666666666666" y="107" width="49.999999999999972" height="15"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Женя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSs-va-NBc">
+                                                                    <rect key="frame" x="216.66666666666666" y="107" width="33.666666666666657" height="14.666666666666671"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                                     <color key="textColor" name="blackAndWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -407,7 +407,7 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 12" translatesAutoresizingMaskIntoConstraints="NO" id="llD-de-euF">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mi4" translatesAutoresizingMaskIntoConstraints="NO" id="llD-de-euF">
                                                                             <rect key="frame" x="2.6666666666666856" y="2.6666666666666714" width="70" height="70"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="70" id="ZgD-wa-LLA"/>
@@ -437,8 +437,8 @@
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Молочник" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpU-Vg-Udm">
-                                                                    <rect key="frame" x="289" y="107" width="63" height="15"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Матвей" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpU-Vg-Udm">
+                                                                    <rect key="frame" x="297.66666666666669" y="107" width="46" height="14.666666666666671"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                                     <color key="textColor" name="blackAndWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -458,7 +458,7 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 12" translatesAutoresizingMaskIntoConstraints="NO" id="rdW-eH-zpc">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mi6" translatesAutoresizingMaskIntoConstraints="NO" id="rdW-eH-zpc">
                                                                             <rect key="frame" x="2.6666666666666856" y="2.6666666666666714" width="70" height="70"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="70" id="5v3-gl-hRL"/>
@@ -488,8 +488,8 @@
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Крестьянин" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIr-xr-Jil">
-                                                                    <rect key="frame" x="371" y="107" width="73" height="15"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Кузя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIr-xr-Jil">
+                                                                    <rect key="frame" x="393.33333333333331" y="107" width="28.333333333333314" height="14.666666666666671"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                                     <color key="textColor" name="blackAndWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -509,7 +509,7 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 12" translatesAutoresizingMaskIntoConstraints="NO" id="0eX-VR-vbC">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mi7" translatesAutoresizingMaskIntoConstraints="NO" id="0eX-VR-vbC">
                                                                             <rect key="frame" x="2.6666666666666856" y="2.6666666666666714" width="70" height="70"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="70" id="970-qf-bvG"/>
@@ -539,8 +539,8 @@
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рыбак" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgc-bU-M46">
-                                                                    <rect key="frame" x="474.66666666666669" y="107" width="40.000000000000057" height="15"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Потап" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgc-bU-M46">
+                                                                    <rect key="frame" x="476" y="107" width="37" height="14.666666666666671"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                                     <color key="textColor" name="blackAndWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -585,7 +585,7 @@
                                                     </constraints>
                                                 </scrollView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваша история" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoL-mZ-Kij">
-                                                    <rect key="frame" x="11.666666666666664" y="107" width="86" height="15"/>
+                                                    <rect key="frame" x="-108.66666666666667" y="107" width="86" height="14.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
                                                     <color key="textColor" name="blackAndWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -606,7 +606,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="recommendations" id="Y9a-SD-iNp">
-                                        <rect key="frame" x="0.0" y="182" width="390" height="293.33334350585938"/>
+                                        <rect key="frame" x="0.0" y="181.66667175292969" width="390" height="293.33334350585938"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y9a-SD-iNp" id="oid-oD-2Xk">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="293.33334350585938"/>
@@ -627,7 +627,7 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vb3-L0-Ydn">
                                                                     <rect key="frame" x="15" y="15" width="160" height="225.33333333333334"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ellipse 12" translatesAutoresizingMaskIntoConstraints="NO" id="xoP-k7-Vsv">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mi9" translatesAutoresizingMaskIntoConstraints="NO" id="xoP-k7-Vsv">
                                                                             <rect key="frame" x="20" y="15" width="120" height="120"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="120" id="RNc-XP-8qH"/>
@@ -639,8 +639,8 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Крестьянин" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKe-kQ-bYJ">
-                                                                            <rect key="frame" x="37" y="142" width="86" height="17"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Косолапый" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKe-kQ-bYJ">
+                                                                            <rect key="frame" x="39.666666666666657" y="142" width="81" height="17"/>
                                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -693,7 +693,7 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mBS-BZ-oSI">
                                                                     <rect key="frame" x="190" y="15" width="160" height="225.33333333333334"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gomer" translatesAutoresizingMaskIntoConstraints="NO" id="nT9-tG-VCO">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mis" translatesAutoresizingMaskIntoConstraints="NO" id="nT9-tG-VCO">
                                                                             <rect key="frame" x="20" y="15" width="120" height="120"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="120" id="OsN-9S-lq7"/>
@@ -705,8 +705,8 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Гомер" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nc1-js-k7U">
-                                                                            <rect key="frame" x="57.666666666666657" y="142" width="45" height="17"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Мишуля" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nc1-js-k7U">
+                                                                            <rect key="frame" x="50.666666666666657" y="142" width="59" height="17"/>
                                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -761,7 +761,7 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20I-SC-JGY">
                                                                     <rect key="frame" x="365" y="15" width="160" height="225.33333333333334"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gubka_Kidsomnibus" translatesAutoresizingMaskIntoConstraints="NO" id="MVi-Xz-4qt">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mi8" translatesAutoresizingMaskIntoConstraints="NO" id="MVi-Xz-4qt">
                                                                             <rect key="frame" x="20" y="15" width="120" height="120"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="120" id="IpF-YG-jfN"/>
@@ -773,8 +773,8 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Спанч-боб" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzU-nC-eNJ">
-                                                                            <rect key="frame" x="41" y="142" width="78" height="17"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Малыш" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzU-nC-eNJ">
+                                                                            <rect key="frame" x="53" y="142" width="54" height="17"/>
                                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -864,7 +864,7 @@
                                         <color key="backgroundColor" name="grayImage"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="post" id="eIx-pS-scf" customClass="CustomTableViewCell" customModule="Insragram" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="475.33334350585938" width="390" height="649.33331298828125"/>
+                                        <rect key="frame" x="0.0" y="475.00001525878906" width="390" height="649.33331298828125"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eIx-pS-scf" id="kZg-WV-byn">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="649.33331298828125"/>
@@ -1107,7 +1107,6 @@
         <image name="Comment 1" width="23" height="23"/>
         <image name="Direct" width="23" height="20"/>
         <image name="Ellipse 12" width="24" height="24"/>
-        <image name="Gubka_Kidsomnibus" width="600" height="465"/>
         <image name="Home - Fill" width="22" height="21"/>
         <image name="Instagram Logo" width="117" height="33"/>
         <image name="Like" width="24" height="22"/>
@@ -1115,8 +1114,16 @@
         <image name="New photo - video" width="21" height="21"/>
         <image name="Reel" width="22" height="22"/>
         <image name="Search" width="22" height="23"/>
-        <image name="gomer" width="640" height="480"/>
         <image name="korova" width="800" height="601"/>
+        <image name="mi" width="512" height="512"/>
+        <image name="mi1" width="512" height="512"/>
+        <image name="mi2" width="512" height="512"/>
+        <image name="mi4" width="512" height="512"/>
+        <image name="mi6" width="512" height="512"/>
+        <image name="mi7" width="512" height="512"/>
+        <image name="mi8" width="512" height="512"/>
+        <image name="mi9" width="512" height="512"/>
+        <image name="mis" width="512" height="512"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
         <image name="plus.circle" catalog="system" width="128" height="123"/>
         <image name="text.justify" catalog="system" width="128" height="99"/>

@@ -19,12 +19,12 @@ final class PostTableViewCell: UITableViewCell {
     @IBOutlet weak private var userPostLabel: UILabel!
     
     // MARK: - Public Methods
-    func update(_ userPostModel: UserPost) {
-        userPhotoImageView.image = UIImage(named: userPostModel.userPhotoImageName)
-        userPhotoPostImageView.image = UIImage(named: userPostModel.userPhotoImageName)
-        userNickLabel.text = userPostModel.userNickName
-        userNickNameLabel.text = userPostModel.userNickName
-        userImageView.image = UIImage(named: userPostModel.userImageName)
-        userPostLabel.text = userPostModel.userPost
+    func update(_ userPost: UserPost) {
+        userPhotoImageView.image = UIImage(named: userPost.userPhotoImageName)
+        userPhotoPostImageView.image = UIImage(named: userPost.userPhotoImageName)
+        userNickLabel.text = userPost.userNickName
+        userNickNameLabel.text = userPost.userNickName
+        userImageView.image = UIImage(named: userPost.userImageName)
+        userPostLabel.text = userPost.userPost
     }
 }

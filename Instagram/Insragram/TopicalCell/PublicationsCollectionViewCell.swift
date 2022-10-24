@@ -8,12 +8,12 @@
 import UIKit
 // Ячейка коллекции
 final class PublicationsCollectionViewCell: UICollectionViewCell {
-    // MARK: Public Outlets
-    @IBOutlet weak var imageView: UIImageView!
+    // MARK: Private Outlets
+    @IBOutlet weak private var imageView: UIImageView!
     
     // MARK: - Public Methods
-    func update(_ model: Topic) {
-        imageView.image = UIImage(named: model.postImageName)
+    func update(_ topic: Topic) {
+        imageView.image = UIImage(named: topic.postImageName)
     }
     
 }
