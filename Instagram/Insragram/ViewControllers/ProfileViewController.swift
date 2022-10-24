@@ -35,6 +35,20 @@ final class ProfileViewController: UIViewController {
     // MARK: - Private Properties
     private let sectionTypes: [SectionType] = [.profileInformation, .aboutMe, .topical, .publications]
     
+    private let posts: [Topic] = [
+        Topic(postImageName: "mi1"),
+        Topic(postImageName: "mi2"),
+        Topic(postImageName: "mi3"),
+        Topic(postImageName: "mi4"),
+        Topic(postImageName: "mi5"),
+        Topic(postImageName: "mi6"),
+        Topic(postImageName: "mi7"),
+        Topic(postImageName: "mi8"),
+        Topic(postImageName: "mi9"),
+        Topic(postImageName: "mi"),
+        Topic(postImageName: "mis")
+    ]
+    
     // MARK: - Private Outlets
     @IBOutlet weak private var profileTableView: UITableView!
     
@@ -127,11 +141,13 @@ extension ProfileViewController: UICollectionViewDataSource {
         _ collectionView: UICollectionView,
         cellForItemAt indexPath: IndexPath
     ) -> UICollectionViewCell {
+        let model = posts[indexPath.row]
         guard let cell = collectionView.dequeueReusableCell(
             withReuseIdentifier: Constants.publicationCollectionViewIdentifier,
             for: indexPath
         ) as? PublicationsCollectionViewCell
         else { return UICollectionViewCell()}
+        cell.update(model)
         return cell
     }
 }

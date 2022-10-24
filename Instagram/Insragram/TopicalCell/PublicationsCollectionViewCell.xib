@@ -29,6 +29,9 @@
                 <constraint firstAttribute="trailing" secondItem="vpo-e2-Cfj" secondAttribute="trailing" id="ylb-IT-Snr"/>
             </constraints>
             <size key="customSize" width="259" height="200"/>
+            <connections>
+                <outlet property="imageView" destination="vpo-e2-Cfj" id="83J-Cu-9BF"/>
+            </connections>
             <point key="canvasLocation" x="225.38461538461539" y="73.222748815165872"/>
         </collectionViewCell>
     </objects>
