@@ -7,7 +7,7 @@
 
 import UIKit
 
-/// Ксиб Ячейки поста
+/// Ячейка поста (экран home)
 final class PostTableViewCell: UITableViewCell {
     
     // MARK: - Private Outlets

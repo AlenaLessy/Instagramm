@@ -7,5 +7,5 @@
 
 import UIKit
 
-// Ячейка подробностей
+// Ячейка подробностей (экран лайков)
 final class AnnouncementsTableViewCell: UITableViewCell {}

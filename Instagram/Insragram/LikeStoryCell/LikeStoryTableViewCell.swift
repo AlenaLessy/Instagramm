@@ -7,7 +7,7 @@
 
 import UIKit
 
-// Ячейка лайка сторис
+// Ячейка лайка сторис (экран лайков)
 final class LikeStoryTableViewCell: UITableViewCell {
    
     // MARK: - Private Outlets

@@ -7,7 +7,7 @@
 
 import UIKit
 
-// Ячейка подписки
+// Ячейка подписки (экран лайков)
 class SubscribTableViewCell: UITableViewCell {
     
     // MARK: - Private Outlets
