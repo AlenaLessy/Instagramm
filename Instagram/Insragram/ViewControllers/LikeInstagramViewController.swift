@@ -59,14 +59,15 @@ final class LikeInstagramViewController: UIViewController {
     ]
     
     private let todayDataSource: [LikeInstagramProtocol] = [
-        LikeStory(userPhotoImageName: "images2",
-                  userNickName: "Alena_Lessy",
-                  storyImageName: "Rectangle 39",
+        LikeStory(userPhotoImageName: "mi1",
+                  userNickName: "Potapisch",
+                  storyImageName: "m1",
                   time: "3 ч."),
-        LikeComment(userPhotoImageName: "Ellipse 12", userNickName: "Dvornik55",
-                    storyImageName: "Rectangle 37",
-                    comment: "Надеюсь это не из твоей коровы",
-                    mentionedUser: "@MilcMan93",
+        LikeComment(userPhotoImageName: "mi2",
+                    userNickName: "Toptiga59",
+                    storyImageName: "m7",
+                    comment: "Классный ковер",
+                    mentionedUser: "@Potapisch",
                     time: "6 ч."),
         Subscrib(userPhotoImageName: "Rectangle 37", userNick: "formerСow", userName: "Ночка", time: "1 ч."),
     ]
@@ -81,7 +82,7 @@ final class LikeInstagramViewController: UIViewController {
         NewSubscriber(userPhotoImageName: "images", userNickName: "homkin", time: "5 дн."),
         LikeComment(userPhotoImageName: "gomer",
                     userNickName: "Gomerchick",
-                    storyImageName: "images2",
+                    storyImageName: "m3",
                     comment: "Красотка!",
                     mentionedUser: "AliceStar",
                     time: "6 дн.")
@@ -90,7 +91,7 @@ final class LikeInstagramViewController: UIViewController {
     private let thisMonthDataSource: [LikeInstagramProtocol] = [
         LikeComment(userPhotoImageName: "Gubka_Kidsomnibus",
                     userNickName: "Im_Gubka",
-                    storyImageName: "images2",
+                    storyImageName: "m4",
                     comment: "Отлично выглядишь",
                     mentionedUser: "AliceStar", time: "4 нед."),
         Subscrib(userPhotoImageName: "gomer", userNick: "gomerchik", userName: "Гомер Симпсон", time: "1 нед." ),

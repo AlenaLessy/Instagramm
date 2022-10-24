@@ -129,7 +129,7 @@
                         </userDefinedRuntimeAttributes>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Моя любимая корова!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiZ-V4-pCR">
-                        <rect key="frame" x="88" y="497" width="152" height="17"/>
+                        <rect key="frame" x="78" y="497" width="152" height="17"/>
                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -144,7 +144,7 @@
                     <constraint firstItem="POx-zY-O3Y" firstAttribute="centerX" secondItem="qhm-gD-Hdt" secondAttribute="centerX" id="0Ma-ZM-dW1"/>
                     <constraint firstItem="g1A-48-w3t" firstAttribute="top" secondItem="od8-Nr-K5j" secondAttribute="top" id="33I-4D-QfU"/>
                     <constraint firstItem="Gim-ll-QiG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="3OV-MC-nei"/>
-                    <constraint firstItem="BiZ-V4-pCR" firstAttribute="leading" secondItem="H8j-dF-fMb" secondAttribute="trailing" constant="15" id="45W-LM-GpM"/>
+                    <constraint firstItem="BiZ-V4-pCR" firstAttribute="leading" secondItem="H8j-dF-fMb" secondAttribute="trailing" constant="5" id="45W-LM-GpM"/>
                     <constraint firstItem="qhm-gD-Hdt" firstAttribute="centerY" secondItem="QVo-OD-2kf" secondAttribute="centerY" id="49d-Y6-gam"/>
                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Iwm-NT-ZnW" secondAttribute="bottom" constant="15" id="8ex-gp-Gsh"/>
                     <constraint firstItem="aJt-4g-WMY" firstAttribute="top" secondItem="40z-Nn-DAb" secondAttribute="top" id="B4G-lZ-i69"/>

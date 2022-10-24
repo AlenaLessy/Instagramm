@@ -13,11 +13,23 @@
 		570E14202903CC33004911E0 /* LikeComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E141F2903CC33004911E0 /* LikeComment.swift */; };
 		570E14222903CFED004911E0 /* NewSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E14212903CFED004911E0 /* NewSubscriber.swift */; };
 		570E14242903D0FC004911E0 /* Subscrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E14232903D0FC004911E0 /* Subscrib.swift */; };
+		570E142829057A3A004911E0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E142729057A3A004911E0 /* ProfileViewController.swift */; };
+		570E142B29057D83004911E0 /* ProfileInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E142929057D83004911E0 /* ProfileInformationTableViewCell.swift */; };
+		570E142C29057D83004911E0 /* ProfileInformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570E142A29057D83004911E0 /* ProfileInformationTableViewCell.xib */; };
+		570E143029058ACF004911E0 /* AboutMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E142E29058ACF004911E0 /* AboutMeTableViewCell.swift */; };
+		570E143129058ACF004911E0 /* AboutMeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570E142F29058ACF004911E0 /* AboutMeTableViewCell.xib */; };
 		572CD3A92901E87500C2E6D9 /* AnnouncementsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CD3A72901E87500C2E6D9 /* AnnouncementsTableViewCell.swift */; };
 		572CD3AA2901E87500C2E6D9 /* AnnouncementsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572CD3A82901E87500C2E6D9 /* AnnouncementsTableViewCell.xib */; };
 		572CD3AD2901EDAC00C2E6D9 /* LikeStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CD3AB2901EDAC00C2E6D9 /* LikeStoryTableViewCell.swift */; };
 		572CD3AE2901EDAC00C2E6D9 /* LikeStoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572CD3AC2901EDAC00C2E6D9 /* LikeStoryTableViewCell.xib */; };
 		572CD3B12901EE0200C2E6D9 /* LikeStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572CD3B02901EE0200C2E6D9 /* LikeStory.swift */; };
+		57365C8129059DCB00A72B5C /* TopicalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57365C7F29059DCB00A72B5C /* TopicalTableViewCell.swift */; };
+		57365C8229059DCB00A72B5C /* TopicalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57365C8029059DCB00A72B5C /* TopicalTableViewCell.xib */; };
+		57365C862905BD1800A72B5C /* PublicationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57365C842905BD1800A72B5C /* PublicationsTableViewCell.swift */; };
+		57365C872905BD1800A72B5C /* PublicationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57365C852905BD1800A72B5C /* PublicationsTableViewCell.xib */; };
+		57365C8B2905C19600A72B5C /* PublicationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57365C892905C19600A72B5C /* PublicationsCollectionViewCell.swift */; };
+		57365C8C2905C19600A72B5C /* PublicationsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57365C8A2905C19600A72B5C /* PublicationsCollectionViewCell.xib */; };
+		57365C9B290669F300A72B5C /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57365C9A290669F300A72B5C /* Topic.swift */; };
 		573CE1252902570F00665E5C /* SubscribTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CE1232902570F00665E5C /* SubscribTableViewCell.swift */; };
 		573CE1262902570F00665E5C /* SubscribTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573CE1242902570F00665E5C /* SubscribTableViewCell.xib */; };
 		573CE12929025C8300665E5C /* LikeCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CE12729025C8300665E5C /* LikeCommentTableViewCell.swift */; };
@@ -41,11 +53,23 @@
 		570E141F2903CC33004911E0 /* LikeComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeComment.swift; sourceTree = "<group>"; };
 		570E14212903CFED004911E0 /* NewSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSubscriber.swift; sourceTree = "<group>"; };
 		570E14232903D0FC004911E0 /* Subscrib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscrib.swift; sourceTree = "<group>"; };
+		570E142729057A3A004911E0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Insragram/ViewControllers/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		570E142929057D83004911E0 /* ProfileInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInformationTableViewCell.swift; sourceTree = "<group>"; };
+		570E142A29057D83004911E0 /* ProfileInformationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInformationTableViewCell.xib; sourceTree = "<group>"; };
+		570E142E29058ACF004911E0 /* AboutMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeTableViewCell.swift; sourceTree = "<group>"; };
+		570E142F29058ACF004911E0 /* AboutMeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutMeTableViewCell.xib; sourceTree = "<group>"; };
 		572CD3A72901E87500C2E6D9 /* AnnouncementsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsTableViewCell.swift; sourceTree = "<group>"; };
 		572CD3A82901E87500C2E6D9 /* AnnouncementsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementsTableViewCell.xib; sourceTree = "<group>"; };
 		572CD3AB2901EDAC00C2E6D9 /* LikeStoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeStoryTableViewCell.swift; sourceTree = "<group>"; };
 		572CD3AC2901EDAC00C2E6D9 /* LikeStoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeStoryTableViewCell.xib; sourceTree = "<group>"; };
 		572CD3B02901EE0200C2E6D9 /* LikeStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeStory.swift; sourceTree = "<group>"; };
+		57365C7F29059DCB00A72B5C /* TopicalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicalTableViewCell.swift; sourceTree = "<group>"; };
+		57365C8029059DCB00A72B5C /* TopicalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicalTableViewCell.xib; sourceTree = "<group>"; };
+		57365C842905BD1800A72B5C /* PublicationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationsTableViewCell.swift; sourceTree = "<group>"; };
+		57365C852905BD1800A72B5C /* PublicationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublicationsTableViewCell.xib; sourceTree = "<group>"; };
+		57365C892905C19600A72B5C /* PublicationsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PublicationsCollectionViewCell.swift; path = Insragram/TopicalCell/PublicationsCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		57365C8A2905C19600A72B5C /* PublicationsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PublicationsCollectionViewCell.xib; path = Insragram/TopicalCell/PublicationsCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		57365C9A290669F300A72B5C /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		573CE1232902570F00665E5C /* SubscribTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribTableViewCell.swift; sourceTree = "<group>"; };
 		573CE1242902570F00665E5C /* SubscribTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribTableViewCell.xib; sourceTree = "<group>"; };
 		573CE12729025C8300665E5C /* LikeCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCommentTableViewCell.swift; sourceTree = "<group>"; };
@@ -75,6 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570E142D29057D89004911E0 /* ProfileInformationCell */ = {
+			isa = PBXGroup;
+			children = (
+				570E142929057D83004911E0 /* ProfileInformationTableViewCell.swift */,
+				570E142A29057D83004911E0 /* ProfileInformationTableViewCell.xib */,
+			);
+			path = ProfileInformationCell;
+			sourceTree = "<group>";
+		};
+		570E143229058AD6004911E0 /* AboutMeCell */ = {
+			isa = PBXGroup;
+			children = (
+				570E142E29058ACF004911E0 /* AboutMeTableViewCell.swift */,
+				570E142F29058ACF004911E0 /* AboutMeTableViewCell.xib */,
+			);
+			path = AboutMeCell;
+			sourceTree = "<group>";
+		};
 		571AFF162901C993005CC3F5 /* AnnouncementCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +142,26 @@
 				573CE1242902570F00665E5C /* SubscribTableViewCell.xib */,
 			);
 			path = SubscribeCell;
+			sourceTree = "<group>";
+		};
+		57365C8329059DE800A72B5C /* TopicalCell */ = {
+			isa = PBXGroup;
+			children = (
+				57365C7F29059DCB00A72B5C /* TopicalTableViewCell.swift */,
+				57365C8029059DCB00A72B5C /* TopicalTableViewCell.xib */,
+			);
+			path = TopicalCell;
+			sourceTree = "<group>";
+		};
+		57365C882905BD1E00A72B5C /* PublicationsCell */ = {
+			isa = PBXGroup;
+			children = (
+				57365C842905BD1800A72B5C /* PublicationsTableViewCell.swift */,
+				57365C852905BD1800A72B5C /* PublicationsTableViewCell.xib */,
+				57365C892905C19600A72B5C /* PublicationsCollectionViewCell.swift */,
+				57365C8A2905C19600A72B5C /* PublicationsCollectionViewCell.xib */,
+			);
+			path = PublicationsCell;
 			sourceTree = "<group>";
 		};
 		573CE12B29025C8A00665E5C /* LikeCommentCell */ = {
@@ -149,6 +211,10 @@
 				572CD3B629024D1D00C2E6D9 /* SubscribeCell */,
 				573CE12B29025C8A00665E5C /* LikeCommentCell */,
 				573CE1302902644E00665E5C /* NewSubscriberCell */,
+				570E142D29057D89004911E0 /* ProfileInformationCell */,
+				570E143229058AD6004911E0 /* AboutMeCell */,
+				57365C8329059DE800A72B5C /* TopicalCell */,
+				57365C882905BD1E00A72B5C /* PublicationsCell */,
 				5740F9F328FEC5AC00C21846 /* Main.storyboard */,
 				5740F9F628FEC5AC00C21846 /* Assets.xcassets */,
 				570704BA28FED91100D30BF0 /* Media.xcassets */,
@@ -162,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				5766EE7D29015F3B00589B37 /* UserPost.swift */,
+				57365C9A290669F300A72B5C /* Topic.swift */,
 				572CD3B02901EE0200C2E6D9 /* LikeStory.swift */,
 				570E141F2903CC33004911E0 /* LikeComment.swift */,
 				570E14212903CFED004911E0 /* NewSubscriber.swift */,
@@ -184,6 +251,7 @@
 			children = (
 				5740F9F128FEC5AC00C21846 /* HomeInstagamViewController.swift */,
 				57C4A2972901C76500D52471 /* LikeInstagramViewController.swift */,
+				570E142729057A3A004911E0 /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -248,13 +316,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				570E141E2902649A004911E0 /* NewSubscriberTableViewCell.xib in Resources */,
+				57365C8229059DCB00A72B5C /* TopicalTableViewCell.xib in Resources */,
+				57365C8C2905C19600A72B5C /* PublicationsCollectionViewCell.xib in Resources */,
 				5740F9FA28FEC5AC00C21846 /* LaunchScreen.storyboard in Resources */,
 				573CE1262902570F00665E5C /* SubscribTableViewCell.xib in Resources */,
 				572CD3AE2901EDAC00C2E6D9 /* LikeStoryTableViewCell.xib in Resources */,
 				57C4A28C29019A2A00D52471 /* PostTableViewCell.xib in Resources */,
+				570E142C29057D83004911E0 /* ProfileInformationTableViewCell.xib in Resources */,
 				5740F9F728FEC5AC00C21846 /* Assets.xcassets in Resources */,
+				57365C872905BD1800A72B5C /* PublicationsTableViewCell.xib in Resources */,
 				573CE12A29025C8300665E5C /* LikeCommentTableViewCell.xib in Resources */,
 				570704BB28FED91100D30BF0 /* Media.xcassets in Resources */,
+				570E143129058ACF004911E0 /* AboutMeTableViewCell.xib in Resources */,
 				572CD3AA2901E87500C2E6D9 /* AnnouncementsTableViewCell.xib in Resources */,
 				5740F9F528FEC5AC00C21846 /* Main.storyboard in Resources */,
 			);
@@ -291,15 +364,22 @@
 			files = (
 				572CD3AD2901EDAC00C2E6D9 /* LikeStoryTableViewCell.swift in Sources */,
 				572CD3A92901E87500C2E6D9 /* AnnouncementsTableViewCell.swift in Sources */,
+				570E142B29057D83004911E0 /* ProfileInformationTableViewCell.swift in Sources */,
 				573CE1252902570F00665E5C /* SubscribTableViewCell.swift in Sources */,
 				5740F9F228FEC5AC00C21846 /* HomeInstagamViewController.swift in Sources */,
 				570E14202903CC33004911E0 /* LikeComment.swift in Sources */,
 				5740F9EE28FEC5AC00C21846 /* AppDelegate.swift in Sources */,
+				570E142829057A3A004911E0 /* ProfileViewController.swift in Sources */,
 				57C4A2982901C76500D52471 /* LikeInstagramViewController.swift in Sources */,
+				57365C8129059DCB00A72B5C /* TopicalTableViewCell.swift in Sources */,
+				57365C862905BD1800A72B5C /* PublicationsTableViewCell.swift in Sources */,
 				570E14242903D0FC004911E0 /* Subscrib.swift in Sources */,
 				5740F9F028FEC5AC00C21846 /* SceneDelegate.swift in Sources */,
+				57365C9B290669F300A72B5C /* Topic.swift in Sources */,
 				570E14222903CFED004911E0 /* NewSubscriber.swift in Sources */,
+				57365C8B2905C19600A72B5C /* PublicationsCollectionViewCell.swift in Sources */,
 				5766EE7E29015F3B00589B37 /* UserPost.swift in Sources */,
+				570E143029058ACF004911E0 /* AboutMeTableViewCell.swift in Sources */,
 				570E141D2902649A004911E0 /* NewSubscriberTableViewCell.swift in Sources */,
 				572CD3B12901EE0200C2E6D9 /* LikeStory.swift in Sources */,
 				57C4A28B29019A2A00D52471 /* PostTableViewCell.swift in Sources */,

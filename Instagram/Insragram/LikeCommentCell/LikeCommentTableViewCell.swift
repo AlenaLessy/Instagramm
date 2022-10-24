@@ -7,7 +7,7 @@
 
 import UIKit
 
-// Ячейка лайка коммента
+// Ячейка лайка коммента (экран лайков)
 final class LikeCommentTableViewCell: UITableViewCell {
 // MARK: - Private Outlets
     @IBOutlet weak private var userPhotoImageView: UIImageView!

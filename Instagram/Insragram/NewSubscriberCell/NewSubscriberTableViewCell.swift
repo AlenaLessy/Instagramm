@@ -7,7 +7,7 @@
 
 import UIKit
 
-// Ячейка нового подписчика
+// Ячейка нового подписчика (экран лайков)
 final class NewSubscriberTableViewCell: UITableViewCell {
  // MARK: - Private Outlets
     @IBOutlet weak private var userPhotoImageView: UIImageView!
