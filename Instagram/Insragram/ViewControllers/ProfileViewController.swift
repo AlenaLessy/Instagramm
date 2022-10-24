@@ -89,6 +89,7 @@ final class ProfileViewController: UIViewController {
     
 }
 
+/// UITableViewDataSource
 extension ProfileViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         sectionTypes.count
@@ -132,6 +133,7 @@ extension ProfileViewController: UITableViewDataSource {
     }
 }
 
+/// UICollectionViewDataSource
 extension ProfileViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         11
@@ -152,6 +154,7 @@ extension ProfileViewController: UICollectionViewDataSource {
     }
 }
 
+/// UICollectionViewDelegateFlowLayout
 extension ProfileViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(
         _ collectionView: UICollectionView,
